@@ -24,12 +24,39 @@ VALUES
 SELECT * FROM products;
 
 -- 5. Display all of the names of the products.
+
+SELECT name FROM products;
+
 -- 6. Display all of the names and prices of the products.
+
+SELECT name, price FROM products;
+
 -- 7. Add a new product - make up whatever you would like!
+
+
+
 -- 8. Display only the products that ***can_be_returned***
+
+
+
 -- 9. Display only the products that have a price less than 44.00.
+
+
+
 -- 10. Display only the products that have a price in between 22.50 and 99.99.
+
+
+
 -- 11. There’s a sale going on: Everything is $20 off! Update the database accordingly.
+
+
+
 -- 12. Because of the sale, everything that costs less than $25 has sold out. Remove all products whose price meets this criteria.
+
+
+
 -- 13. And now the sale is over. For the remaining products, increase their price by $20.
+
+
+
 -- 14. There is a new company policy: everything is returnable. Update the database accordingly.
